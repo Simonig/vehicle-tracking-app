@@ -11,7 +11,7 @@ This App shows the current position of all the Vehicles.
 
 * Services 
 
-    ####Add Current Location:
+    ##Add Current Location:
     
     POST to "localhost:3000/api/v1/gps" with this data structure:
  
