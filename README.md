@@ -7,7 +7,10 @@ This App shows the current position of all the Vehicles.
 
 * Rails version: 5.1.1
 
-* To run the project on localhost on port 3000 just run: "rails server"
+* To run the project on localhost on port 3000 just run in the project folder: 
+    bundle install
+    rake db:migrate
+    rails server
 
 * Services 
 
