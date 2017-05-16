@@ -13,13 +13,13 @@ This App shows the current position of all the Vehicles.
 
     Add Current Location:
     
-    POST to "localhost:3000/api/v1/gps" with this data structure:
+    POST to "localhost:3000/api/v1/gps" with the following data structure:
  
         {   
-           "latitude": -33.408104, 
-           "longitude": -70.583771, 
-           "vehicle_identifier": "hhww225", 
-           "sent_at": "2016-8-25 20:45:00"
+           "latitude": -33.408104, //float
+           "longitude": -70.583771, //float
+           "vehicle_identifier": "hhww225", //string
+           "sent_at": "2016-8-25 20:45:00" //datetime
         }
         
     It creates a new Position for the selected Vehicle by vehicle_identifier, 
